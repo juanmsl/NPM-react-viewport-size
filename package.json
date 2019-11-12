@@ -1,12 +1,20 @@
 {
   "name": "react-viewport-size",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "private": false,
-  "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+  "description": "Widget in a corner of the screen to see the viewport size",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanmsl/react-viewport-size"
   },
+  "author": "Juan Manuel Sánchez Lozano <juanmsl_pk@hotmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "viewport",
+    "size"
+  ],
   "scripts": {
     "publish:yarn": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files && yarn publish",
     "start": "react-scripts start",
@@ -29,6 +37,11 @@
       "last 1 safari version"
     ]
   },
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -44,13 +57,5 @@
     "plugins": [
       "@babel/plugin-proposal-class-properties"
     ]
-  },
-  "description": "Widget in a corner to see the viewport size",
-  "main": "dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/juanmsl/react-viewport-size"
-  },
-  "author": "Juan Manuel Sánchez Lozano <juanmsl_pk@hotmail.com>",
-  "license": "MIT"
+  }
 }
