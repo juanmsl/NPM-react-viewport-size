@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom';
 import ViewportSize from './components';
 
 ReactDOM.render(
-  <ViewportSize />,
-  document.getElementById('root')
+    <ViewportSize enabledInProduction />,
+    document.getElementById('root')
 );

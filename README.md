@@ -4,6 +4,10 @@ Add a little widget in any of your screen corners to see the viewport size.
 
 This widget helps a lot, when you are testing web responsive design, to know the current viewport size, and how the media queries works.
 
+## Demo
+
+See (this demo page)[https://juanmsl.github.io/react-viewport-size/], and try to resize it.
+
 ## Installation
 
 npm
