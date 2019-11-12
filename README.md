@@ -6,7 +6,7 @@ This widget helps a lot, when you are testing web responsive design, to know the
 
 ## Demo
 
-See (this demo page)[https://juanmsl.github.io/react-viewport-size/], and try to resize it.
+See [this demo page](https://juanmsl.github.io/react-viewport-size/), and try to resize it.
 
 ## Installation
 
