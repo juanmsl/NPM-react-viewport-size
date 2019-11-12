@@ -1,9 +1,9 @@
 {
   "name": "react-viewport-size",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "private": false,
   "description": "Widget in a corner of the screen to see the viewport size",
-  "main": "build/index.js",
+  "main": "react-viewport-size/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/juanmsl/react-viewport-size"
@@ -20,11 +20,12 @@
     "size"
   ],
   "scripts": {
-    "publish:yarn": "rm -rf build && mkdir build && babel src/components -d build --copy-files && yarn publish",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pkg:build": "rm -rf react-viewport-size && mkdir react-viewport-size && babel src/components -d react-viewport-size --copy-files",
+    "pkg:publish": "yarn run pkg:build && yarn publish"
   },
   "eslintConfig": {
     "extends": "react-app"
