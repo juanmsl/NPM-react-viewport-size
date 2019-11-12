@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-viewport-size"]=this["webpackJsonpreact-viewport-size"]||[]).push([[0],[,,,function(e,t,n){e.exports=n(4)},function(e,t,n){"use strict";n.r(t);var r=n(0),o=n.n(r),s=n(2);n.n(s).a.render(o.a.createElement("h1",null,"Hola"),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.67d8f52b.chunk.js.map
