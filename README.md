@@ -37,6 +37,6 @@ ReactDOM.render(
 
 Prop|Type|Default Value|Options|Description
 ----|----|-------------|-------|-----------
-className|string|`viewport-size-widget`|custom|Define the classname for the widget
-corner|string|`top-right`|`[top|bottom]-[left-right]`|Define the position on the screen (only with the default className)
-enabledInProduction|boolean|`false`|`true|false`|Render the component in production environment
+className|string|viewport-size-widget|custom|Define the classname for the widget
+corner|string|top-right|[top/bottom]-[left/right]|Define the position on the screen (only with the default className)
+enabledInProduction|boolean|false|true/false|Render the component in production environment
