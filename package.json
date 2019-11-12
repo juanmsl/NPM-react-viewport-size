@@ -1,6 +1,6 @@
 {
   "name": "react-viewport-size",
-  "version": "1.4.13",
+  "version": "1.4.14",
   "private": false,
   "peerDependencies": {
     "react": "^16.11.0",
