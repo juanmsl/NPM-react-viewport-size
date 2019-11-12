@@ -1,6 +1,6 @@
 {
   "name": "react-viewport-size",
-  "version": "1.4.11",
+  "version": "1.4.13",
   "private": false,
   "peerDependencies": {
     "react": "^16.11.0",
@@ -8,7 +8,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "publish:yarn": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files && cp package.json dist/ && cp README.md dist/",
+    "publish:yarn": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files && yarn publish",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,8 +46,11 @@
     ]
   },
   "description": "Widget in a corner to see the viewport size",
-  "main": "index.js",
-  "repository": "https://github.com/juanmsl/react-viewport-size",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanmsl/react-viewport-size"
+  },
   "author": "Juan Manuel Sánchez Lozano <juanmsl_pk@hotmail.com>",
   "license": "MIT"
 }
