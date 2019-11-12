@@ -1,6 +1,6 @@
 {
   "name": "react-viewport-size",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "private": false,
   "description": "Widget in a corner of the screen to see the viewport size",
   "main": "react-viewport-size/index.js",
