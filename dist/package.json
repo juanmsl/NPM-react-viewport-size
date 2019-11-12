@@ -1,0 +1,50 @@
+{
+  "name": "react-viewport-size",
+  "version": "1.4.12",
+  "private": false,
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "publish:yarn": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files && cp package.json dist/ && cp README.md dist/",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-react": "^7.6.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "description": "Widget in a corner to see the viewport size",
+  "main": "index.js",
+  "repository": "https://github.com/juanmsl/react-viewport-size",
+  "author": "Juan Manuel Sánchez Lozano <juanmsl_pk@hotmail.com>",
+  "license": "MIT"
+}
