@@ -1,14 +1,18 @@
 {
   "name": "react-viewport-size",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "private": false,
   "description": "Widget in a corner of the screen to see the viewport size",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/juanmsl/react-viewport-size"
   },
-  "author": "Juan Manuel Sánchez Lozano <juanmsl_pk@hotmail.com>",
+  "author": {
+    "name": "Juan Manuel Sánchez Lozano",
+    "email": "juanmsl_pk@hotmail.com",
+    "url": "https://juanmsl.github.io/"
+  },
   "license": "MIT",
   "keywords": [
     "react",
@@ -16,7 +20,7 @@
     "size"
   ],
   "scripts": {
-    "publish:yarn": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files && yarn publish",
+    "publish:yarn": "rm -rf build && mkdir build && babel src/components -d build --copy-files && yarn publish",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
