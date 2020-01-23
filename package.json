@@ -1,9 +1,9 @@
 {
   "name": "react-viewport-size",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "private": false,
   "description": "Widget in a corner of the screen to see the viewport size",
-  "main": "react-viewport-size/index.js",
+  "main": "lib/index.js",
   "homepage": "https://juanmsl.github.io/react-viewport-size/",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pkg:build": "rm -rf react-viewport-size && mkdir react-viewport-size && babel src/components -d react-viewport-size --copy-files",
+    "pkg:build": "rm -rf lib && mkdir lib && babel src/components -d lib --copy-files",
     "pkg:publish": "yarn run pkg:build && yarn publish"
   },
   "eslintConfig": {
@@ -47,8 +47,7 @@
   },
   "peerDependencies": {
     "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-dom": "^16.11.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
